@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8079017550248466153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8151542907052319598}
+  - component: {fileID: 8999273066289885698}
+  m_Layer: 0
+  m_Name: WorldManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8151542907052319598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8079017550248466153}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8999273066289885698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8079017550248466153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4111c5366556b44ab9fc2e082110bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  takenPositions: []
+  player: {fileID: 0}
+  room_top: {fileID: 5800640076409852185, guid: 6d9b8c5abd1f1584c91707386e538cfc, type: 3}
+  room_bottom: {fileID: 8614626768809080483, guid: d13bbc6c205bfd94bb3d67c29cc48181, type: 3}
+  room_left: {fileID: 5518209925781303105, guid: 7732e4a02e3384940960c69614ed4421, type: 3}
+  room_right: {fileID: 3773627492379935775, guid: 6fd1aa2daa2ec8941a5ffa63870606cf, type: 3}
+  room_top_bottom: {fileID: 2337331299692309614, guid: 06c7fc115a10960418c002fda8325365, type: 3}
+  room_top_left: {fileID: 3456895294951483440, guid: 603032994b155434b9b424ad7bda5e46, type: 3}
+  room_top_right: {fileID: 2609043376756799420, guid: f66c97348967dfd4fa68473af8893ae6, type: 3}
+  room_bottom_left: {fileID: 7458569340514853823, guid: 88765b00d11e3fb4593f1fbfd3381ff1, type: 3}
+  room_bottom_right: {fileID: 7764591133727073321, guid: 9ca4b5164084e824385cceb8b2386dba, type: 3}
+  room_left_right: {fileID: 3498612141319097292, guid: 5d7a26a867a41b54cba138032f812535, type: 3}
+  room_top_bottom_left: {fileID: 6795025946198985014, guid: 716c124ddfc45ba40873d1a0ea45f982, type: 3}
+  room_top_bottom_right: {fileID: 6564191828498042880, guid: 5dcc23e5512026d4fa15555dc319aa9c, type: 3}
+  room_top_left_right: {fileID: 9015983150738762957, guid: bd4a584737ece34419d111860fe72a34, type: 3}
+  room_bottom_left_right: {fileID: 8155483119491153950, guid: 39b75745ef339ba429a99be2b82e3019, type: 3}
+  room_all_doors: {fileID: 6093622893372665135, guid: ddfd7630e20228340a77ef2d4a386247, type: 3}
+  boss_room: {fileID: 503895636779979994, guid: 50636757c7db7a645928850654a05723, type: 3}
+  wave_types: []
+  boss_wave: {fileID: 0}
+  pistol: {fileID: 0}
+  shotgun: {fileID: 0}
+  plasma_gun: {fileID: 0}
+  grenade_launcher: {fileID: 0}
+  controls: {fileID: 0}
